@@ -20,13 +20,13 @@ public class Bakery {
    cakes[i]=cake;
   }
   //Выпекаем
-  for (int i = 0; i < cakes.length; i++) {
-   cakes[i].setWeightTime();
-   System.out.println(String.format("%1$s готов", cakes[i].getName()));
+  for (Cake cake: cakes){
+   cake.setWeightTime();
+   System.out.println(String.format("%1$s готов", cake.getName()));
   }
   //Выводим данные по кексам
-  for (int i = 0; i < cakes.length ; i++) {
-   System.out.println(cakes[i].toString());
+  for (Cake cake: cakes){
+   System.out.println(cake.toString());
   }
   System.out.println("Увеличиваем муку и воду");
   for (int i = 0; i < cakes.length; i++) {
@@ -41,8 +41,8 @@ public class Bakery {
    }
   }
   //Выводим данные по кексам
-  for (int i = 0; i < cakes.length ; i++) {
-   System.out.println(cakes[i].toString());
+  for (Cake cake: cakes){
+   System.out.println(cake.toString());
   }
   //System.out.println(String.format("Время %1$tH:%1$tM", timeOfBake));
  }
