@@ -31,7 +31,7 @@ public class Bakery {
     cake.setFlour (cake.getFlour () + 50f);
     cake.setWeightTime ();
    } else {
-    cake.setWater (cake.getWater () + 80f);
+    cake.setWater (cake.getWater () + 70f);
     cake.setWeightTime ();
    }
   }
