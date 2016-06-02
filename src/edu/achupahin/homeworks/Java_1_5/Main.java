@@ -13,8 +13,8 @@ public class Main {
 
     public static void main(String[] args) {
         Life[] life= {
-                new Woman("Eva", getHumanBirth().equals(0), getHumanBirth[1], 50f, 175f, "Adams", true),
-                new Woman("Maria", getHumanBirth(), getHumanBirth, 50f, 175f, "Magdalena", false),
+                new Woman("Eva", null, null, 50f, 175f, "Adams", true),
+                new Woman("Maria", null, null, 50f, 175f, "Magdalena", false),
 
         };
     }

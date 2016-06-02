@@ -14,6 +14,8 @@ public abstract class Human extends Life implements Eating {
 
     public abstract String voice();
 
+
+
     @Override
     public String eat(String food) {
         return "i like " + food;
